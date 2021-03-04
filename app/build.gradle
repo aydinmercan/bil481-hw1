@@ -1,0 +1,25 @@
+plugins {
+    id 'application'
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+
+    implementation 'com.google.guava:guava:29.0-jre'
+
+    implementation "com.sparkjava:spark-core:2.9.3"
+    implementation "com.sparkjava:spark-template-mustache:2.7.1"
+}
+
+application {
+    mainClass = 'App.App'
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
