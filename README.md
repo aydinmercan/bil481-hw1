@@ -1,4 +1,7 @@
 # BIL481 - Homework 1
+
+[![Build Status](https://travis-ci.com/aydinmercan/bil481-hw1.svg?branch=main)](https://travis-ci.com/aydinmercan/bil481-hw1)
+
 Online fast key erasure based interactive PRNG.
 
 ## License
